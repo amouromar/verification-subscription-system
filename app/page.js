@@ -6,11 +6,10 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow flex items-center justify-center">
+      <main className="flex-grow flex items-center justify-center p-4">
         <Verify />
       </main>
       <Footer />
     </div>
   );
 }
-
